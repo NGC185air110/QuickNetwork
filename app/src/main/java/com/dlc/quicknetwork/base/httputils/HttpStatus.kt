@@ -12,5 +12,5 @@ class HttpStatus : Serializable {
     val code: Int = 8200
 
     val isCodeInvalid: Boolean
-        get() = code != 200
+        get() = code != 8200
 }

@@ -23,6 +23,9 @@ class ApiException(private val mErrorCode: Int, errorMessage: String) :
     val isTokenError: Boolean
         get() = mErrorCode == 990502
 
-    val isNetWorkNull:Boolean
+    val isNetWorkNull: Boolean
         get() = mErrorCode == 990506
+
+    val isPasswordNoTrue: Boolean
+        get() = mErrorCode == 9030402
 }
